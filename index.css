@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution{
+    display: flex;
+    flex-direction: column;
+   
+    /* padding-top:10px ; */
+    padding:10px 2% 1% 2% ;
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+}
+.attribution .image img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 10px;
+    /* padding:1% 1% 0 1% ; */
+}
+.attribution h5{
+    padding: 2% 0 2% 0;
+    font-size: 2rem;
+    font-weight: bold;
+    /* align-content: flex-start;
+    text-align: start; */
+}
+.attribution p{
+    font-size: 1rem;
+    font-weight: normal;  
+    color: hsl(24, 5%, 18%);
+}
+.attribution .preparationTime{
+    margin-top: 1%;
+    background-color: hsl(330, 57%, 95%);
+    border-radius: 10px;
+    padding: 1% 0 2% 1%;
+}
+.attribution .preparationTime h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
+.attribution .preparationTime  ul{
+    padding: 1% 0 0 2%;
+}
+.attribution .preparationTime  li{
+    font-weight: bold;
+}
+.attribution .preparationTime  span{
+    font-weight: normal;
+}
+.attribution .Ingredients{
+    padding-top: 1%;
+}
+.attribution .Ingredients h5{
+    font-size: 1.5rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.attribution .Ingredients ul{
+    padding: 1% 0 2% 2%;
+    /* background-color: rgb(226, 227, 227); */
+    /* border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+.attribution .Instructions {
+    padding-top: 2%;
+}
+
+.attribution .Instructions h4{
+    font-size: 1.5rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.attribution .Instructions ol{
+    padding: 1% 0 0 2%;
+    font-weight: bold;
+    line-height: 30px;
+    color: hsl(24, 5%, 18%);
+}
+
+.attribution .Instructions  span{
+    font-weight: normal;
+    color: hsl(30, 10%, 34%);
+}
+.attribution .Nutrition{
+    padding-top: 1%;
+    
+}
+.attribution .Nutrition h5,h3{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution .Nutrition table{
+    padding-top: 1%;
+    border-collapse: collapse;
+margin-bottom: 20px;
+
+}
+tr {
+    
+    border-bottom: 2px solid rgb(212, 210, 210);
+    
+  }
+.attribution .Nutrition table td{
+    /* border: 1px solid; */
+    padding-right: 200px;
+    padding-bottom: 10px;
+    color:hsl(34, 4%, 36%);
+  
+}
+.attribution .Nutrition table .cal{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
